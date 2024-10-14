@@ -1,0 +1,7 @@
+services:
+  myapp-prod:
+    image: nginx
+    volumes:
+      - .:/usr/share/nginx/html
+    ports:
+      - "9090:80"
